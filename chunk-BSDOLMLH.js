@@ -1,0 +1,1 @@
+import{$a as o,Sa as p,Ta as a,Y as t,gb as i}from"./chunk-ED4RC3QI.js";var m=class n{static \u0275fac=function(e){return new(e||n)};static \u0275cmp=t({type:n,selectors:[["app-mapping"]],standalone:!0,features:[i],decls:2,vars:0,template:function(e,r){e&1&&(p(0,"p"),o(1,"mapping works!"),a())}})};export{m as MappingComponent};

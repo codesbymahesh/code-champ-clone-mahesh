@@ -1,0 +1,1 @@
+import{$a as m,Sa as i,Ta as o,Y as n,gb as a}from"./chunk-ED4RC3QI.js";var l=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-timeline"]],standalone:!0,features:[a],decls:2,vars:0,template:function(e,p){e&1&&(i(0,"p"),m(1,"timeline works!"),o())}})};export{l as TimelineComponent};

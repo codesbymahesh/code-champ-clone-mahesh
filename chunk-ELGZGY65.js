@@ -1,0 +1,1 @@
+import{$a as s,Sa as a,Ta as o,Y as n,gb as m}from"./chunk-ED4RC3QI.js";var p=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-teams"]],standalone:!0,features:[m],decls:2,vars:0,template:function(e,r){e&1&&(a(0,"p"),s(1,"teams works!"),o())}})};export{p as TeamsComponent};

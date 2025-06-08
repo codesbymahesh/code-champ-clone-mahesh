@@ -1,0 +1,1 @@
+import{$a as r,Sa as o,Ta as s,Y as n,gb as a}from"./chunk-ED4RC3QI.js";var p=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=n({type:t,selectors:[["app-trends"]],standalone:!0,features:[a],decls:2,vars:0,template:function(e,m){e&1&&(o(0,"p"),r(1,"trends works!"),s())}})};export{p as TrendsComponent};

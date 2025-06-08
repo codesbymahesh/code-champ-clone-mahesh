@@ -1,0 +1,1 @@
+import{$a as a,Sa as p,Ta as n,Y as o,gb as i}from"./chunk-ED4RC3QI.js";var s=class t{static \u0275fac=function(e){return new(e||t)};static \u0275cmp=o({type:t,selectors:[["app-application-groups"]],standalone:!0,features:[i],decls:2,vars:0,template:function(e,c){e&1&&(p(0,"p"),a(1,"application-groups works!"),n())}})};export{s as ApplicationGroupsComponent};
