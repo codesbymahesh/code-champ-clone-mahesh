@@ -1,0 +1,61 @@
+<div class="p-6">
+      <!-- Primary Tabs -->
+      <div class="mb-2">
+        <nav class="flex space-x-1 border-b">
+          <a 
+            routerLink="/trends" 
+            routerLinkActive="bg-teal-500 text-white" 
+            [routerLinkActiveOptions]="{exact: true}"
+            class="px-4 py-2 rounded-t-lg text-sm font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
+          >
+            📈 Trends
+          </a>
+          <a 
+            routerLink="/timeline" 
+            routerLinkActive="bg-teal-500 text-white" 
+            [routerLinkActiveOptions]="{exact: true}"
+            class="px-4 py-2 rounded-t-lg text-sm font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
+          >
+            🕐 Time Line
+          </a>
+          <a 
+            routerLink="/config" 
+            routerLinkActive="bg-teal-500 text-white" 
+            class="px-4 py-2 rounded-t-lg text-sm font-medium text-gray-500 hover:text-gray-700 hover:bg-gray-100 transition-colors"
+          >
+            ⚙️ Configure Apps
+          </a>
+        </nav>
+      </div>
+
+      <!-- Second-level Tabs (for Configure Apps) -->
+      <div class="mb-2">
+        <nav class="flex space-x-8 border-b border-gray-200">
+          <a 
+            routerLink="/config/productivity-profile" 
+            routerLinkActive="border-teal-500 text-teal-600" 
+            class="py-2 px-1 border-b-2  text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300"
+          >
+            Productivity Profile
+          </a>
+          <a 
+            routerLink="/config/mapping" 
+            routerLinkActive="border-teal-500 text-teal-600" 
+            [routerLinkActiveOptions]="{exact: true}"
+            class="py-2 px-1 border-b-2  text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300"
+          >
+            Mapping
+          </a>
+          <a 
+            routerLink="/config/application-groups" 
+            routerLinkActive="border-teal-500 text-teal-600" 
+            class="py-2 px-1 border-b-2  text-sm font-medium text-gray-500 hover:text-gray-700 hover:border-gray-300"
+          >
+            Application Groups
+          </a>
+        </nav>
+      </div>
+
+      <!-- Router Outlet for nested routes -->
+      <router-outlet></router-outlet>
+    </div>
